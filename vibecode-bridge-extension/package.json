@@ -1,0 +1,29 @@
+{
+  "name": "vibecode-bridge",
+  "displayName": "VibeCode Bridge",
+  "description": "Receives prompts from VibeCode Chrome Extension and pushes them directly into your IDE's AI chat.",
+  "version": "1.0.0",
+  "publisher": "vibecode",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vibecode.startBridge",
+        "title": "VibeCode: Start Bridge Server"
+      }
+    ]
+  },
+  "dependencies": {
+    "antigravity-sdk": "^1.7.0"
+  }
+}
