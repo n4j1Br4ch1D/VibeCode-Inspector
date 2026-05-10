@@ -1,5 +1,5 @@
 # VibeCode Inspector
-<img src="VibeCode_Inspector.png" alt="VibeCode Logo" width="200">
+<img src="VibeCode_Inspector.png" alt="VibeCode Logo" width="100">
 
 Select elements on the page and seamlessly send them to your IDE with captured context.
 
