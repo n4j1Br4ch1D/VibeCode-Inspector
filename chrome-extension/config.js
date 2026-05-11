@@ -32,7 +32,7 @@ const VibeCodeConfig = {
         captureJSContext: { id: 'config-js-context', label: 'Capture JS Context (React/Vue/Events)', default: false, type: 'boolean' },
         enableIframeCapture: { id: 'config-iframe-capture', label: 'Capture Elements in Iframes', default: false, type: 'boolean' },
         enableCrossSiteCapture: { id: 'config-cross-site', label: 'Enable Cross-Site Capture', default: false, type: 'boolean' },
-        captureElementScreenshots: { id: 'config-element-screenshots', label: 'Capture Element Screenshots', default: true, type: 'boolean' },
+        captureElementScreenshots: { id: 'config-element-screenshots', label: 'Capture Element Screenshots', default: false, type: 'boolean' },
         recordActions: { id: 'config-record-actions', label: 'Record Actions', default: false, type: 'boolean' },
         mainTemplate: { id: 'config-main-template', label: 'Main Layout', default: '{instruction}\n\n{html}\n\n{js_context}\n\n{dynamic_state}\n\n{element_screenshots}\n\n{css}\n\n{logs}\n\n{network}\n\n{page_info}\n\n{browser_info}\n\n{actions}\n\n{selected_text}\n\n{images}', type: 'textarea' },
         templateInstruction: { id: 'config-tpl-instruction', label: 'Instruction Template', default: 'I want to improve the following UI element (`{selector}`) to do the following:\n"{instruction}"\n\nPlease also ensure it looks premium and modern.', type: 'textarea' },
